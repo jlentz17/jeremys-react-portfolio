@@ -1,9 +1,9 @@
 import React from "react";
-import "./nav.scss"
+import "./header.scss"
 
-function Nav() {
+function Header() {
   return (
-    <header className="nav">
+    <header className="header">
       <h2>
         <a href="/">
           <span id="name-logo" role="img" aria-label="logo">
@@ -15,4 +15,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Header;

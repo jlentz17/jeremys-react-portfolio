@@ -1,9 +1,9 @@
 import React from 'react'
-import "./contactForm/"
+import "./contactForm.scss"
 
 export default function ContactForm() {
     return (
-        <div className="contactForm.scss">
+        <div className="contactForm">
             
         </div>
     )
