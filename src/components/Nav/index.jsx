@@ -1,8 +1,9 @@
 import React from "react";
+import "./nav.scss"
 
 function Nav() {
   return (
-    <header>
+    <header className="nav">
       <h2>
         <a href="/">
           <span id="name-logo" role="img" aria-label="logo">

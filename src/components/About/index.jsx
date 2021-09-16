@@ -1,9 +1,10 @@
 import React from "react";
 import coverImage from "../../assets/cover/background-img-portfolio.jpeg";
+import "./about.scss"
 
 function About() {
   return (
-    <section className="my-5">
+    <section className=" about my-5">
       <h1 id="about">Hey, I'm Jeremy!</h1>
       <img
         src={coverImage}
