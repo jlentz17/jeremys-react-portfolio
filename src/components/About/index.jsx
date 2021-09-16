@@ -13,7 +13,7 @@ function About() {
       />
       <div className="my-2">
         <p>
-          Full-Stack or software developer with a background in business and
+          Full-Stack developer with a background in business and
           sales. Employees troubleshooting skills, and an eye for detail in the
           pursuit of developing engaging apps. Works well both independently and
           in a team environment. Passionate, flexible and an excellent
