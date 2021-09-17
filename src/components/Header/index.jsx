@@ -3,12 +3,14 @@ import "./header.scss";
 // import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 // import GitHubIcon from '@mui/icons-material/GitHub';
 
-function Header() {
+function Header({ hamburgerOpen, setHamburgerOpen }) {
   return (
-    <div className="header active">
+    <div className={"header " + (hamburgerOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#about" className="logo">jeremy..</a>
+          <a href="#about" className="logo">
+            jeremy..
+          </a>
           <div className="infoContainer">
             {/* <PhoneAndroidIcon className="icon"/> */}
             <span>(480) 955-6012</span>
@@ -20,7 +22,10 @@ function Header() {
         </div>
 
         <div className="right">
-          <div className="hamburgerMenu">
+          <div
+            className="hamburgerMenu"
+            onClick={() => setHamburgerOpen(!hamburgerOpen)}
+          >
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>

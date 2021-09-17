@@ -5,11 +5,13 @@ import ContactForm from "./components/ContactForm"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer";
 import "./app.scss"
+import { useState } from "react";
 
 function App() {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
   return (
     <div className="app">
-      <Header/>
+      <Header hamburgerOpen={hamburgerOpen} setHamburgerOpen={setHamburgerOpen}/>
       <div className="sections">
         <About/>
         <Projects/>
