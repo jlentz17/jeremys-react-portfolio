@@ -4,24 +4,8 @@ import "./about.scss"
 
 function About() {
   return (
-    <section className="about" id="about">
-      <h1 >Hey, I'm Jeremy!</h1>
-      {/* <img
-        src={coverImage}
-        className="my-2"
-        style={{ width: "100%" }}
-        alt="cover"
-      /> */}
-      {/* <div className="my-2">
-        <p>
-          Full-Stack developer with a background in business and
-          sales. Employees troubleshooting skills, and an eye for detail in the
-          pursuit of developing engaging apps. Works well both independently and
-          in a team environment. Passionate, flexible and an excellent
-          communicator eager to learn.
-        </p>
-      </div> */}
-    </section>
+    <div className="about" id="about">
+    </div>
   );
 }
 

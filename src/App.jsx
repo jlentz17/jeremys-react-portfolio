@@ -1,10 +1,10 @@
 import React from "react";
 import "./app.scss"
-import About from "./components/About";
-import Header from "./components/Header";
-import ContactForm from "./components/ContactForm"
-import Projects from "./components/Projects"
-import Footer from "./components/Footer";
+import About from "./components/About/index.jsx";
+import Header from "./components/Header/index.jsx";
+import ContactForm from "./components/ContactForm/index.jsx"
+import Projects from "./components/Projects/index.jsx"
+import Footer from "./components/Footer/index.jsx";
 
 function App() {
   return (
