@@ -5,7 +5,7 @@ import "./header.scss";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header active">
       <div className="wrapper">
         <div className="left">
           <a href="#about" className="logo">jeremy..</a>

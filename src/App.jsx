@@ -1,20 +1,20 @@
 import React from "react";
+import About from "./components/About";
+import Header from "./components/Header";
+import ContactForm from "./components/ContactForm"
+import Projects from "./components/Projects"
+import Footer from "./components/Footer";
 import "./app.scss"
-import About from "./components/About/index.jsx";
-import Header from "./components/Header/index.jsx";
-import ContactForm from "./components/ContactForm/index.jsx"
-import Projects from "./components/Projects/index.jsx"
-import Footer from "./components/Footer/index.jsx";
 
 function App() {
   return (
     <div className="app">
       <Header/>
-      <main className="sections">
+      <div className="sections">
         <About/>
         <Projects/>
         <ContactForm/>
-      </main>
+      </div>
       <Footer/>
     </div>
   );
