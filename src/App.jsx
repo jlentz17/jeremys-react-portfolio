@@ -1,4 +1,5 @@
 import React from "react";
+import "./app.scss"
 import About from "./components/About";
 import Header from "./components/Header";
 import ContactForm from "./components/ContactForm"

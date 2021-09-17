@@ -1,16 +1,15 @@
 import React from "react";
-import "./header.scss"
+import "./header.scss";
 
 function Header() {
   return (
     <header className="header">
-      <h2>
-        <a href="/">
-          <span id="name-logo" role="img" aria-label="logo">
-            Jeremy Lentz
-          </span>
-        </a>
-      </h2>
+      <div className="wrapper">
+        <div className="left">
+          <a href="#about">Yoooooo</a>
+        </div>
+        <div className="right"></div>
+      </div>
     </header>
   );
 }
