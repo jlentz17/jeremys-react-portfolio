@@ -1,0 +1,12 @@
+.projectsList {
+  font-size: 15px;
+  margin-right: 40px;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  &.active {
+    background-color: rgb(13, 11, 68);
+    color: whitesmoke;
+  }
+}

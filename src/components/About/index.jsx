@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./about.scss";
 import { init } from "ityped";
-import { useEffect, useRef } from "react";
 
 function About() {
-
-  const textRef = useRef()
+  const textRef = useRef();
 
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1800,
       backSpeed: 65,
-      strings: ["Web Developer", "Programmer", "Coder"]
-    })
-  }, [])
+      strings: ["Web Developer", "Programmer", "Coder"],
+    });
+  }, []);
   return (
     <div className="about" id="about">
       <div className="left">

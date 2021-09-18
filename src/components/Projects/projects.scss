@@ -17,19 +17,7 @@
     padding: 0;
     list-style: none;
     display: flex;
-
-    li {
-      font-size: 15px;
-      margin-right: 40px;
-      padding: 8px;
-      border-radius: 15px;
-      cursor: pointer;
-
-      &.active {
-        background-color: rgb(13, 11, 68);
-        color: whitesmoke;
-      }
-    }
+    cursor: pointer;
   }
   .container {
     width: 70%;
@@ -51,7 +39,6 @@
         color: whitesmoke;
         position: relative;
         transition: 0.3s all ease-in-out;
-        cursor: pointer;
 
         h3 {
             position: absolute;

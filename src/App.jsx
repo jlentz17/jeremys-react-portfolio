@@ -1,11 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import About from "./components/About";
 import Header from "./components/Header";
 import ContactForm from "./components/ContactForm";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import "./app.scss";
-import { useState } from "react";
 import Dropdown from "./components/Dropdown";
 
 function App() {
