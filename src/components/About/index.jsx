@@ -1,8 +1,20 @@
 import React from "react";
-// import coverImage from "../../assets/cover/background-img-portfolio.jpeg";
 import "./about.scss";
+import { init } from "ityped";
+import { useEffect, useRef } from "react";
 
 function About() {
+
+  const textRef = useRef()
+
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 1800,
+      backSpeed: 65,
+      strings: ["Web Developer", "Programmer", "Coder"]
+    })
+  }, [])
   return (
     <div className="about" id="about">
       <div className="left">
@@ -15,7 +27,7 @@ function About() {
           <h2>Hey! My name is</h2>
           <h1>Jeremy Lentz</h1>
           <h3>
-            Freelance <span>Developer</span>
+            Freelance <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#projects">

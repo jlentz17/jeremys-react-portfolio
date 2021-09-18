@@ -41,22 +41,34 @@
       }
       h2 {
         font-size: 35px;
-
       }
       h3 {
-        font-size: 30px
+        font-size: 30px;
 
         span {
           font-size: inherit;
-          color: rgb(117, 20, 117);
+          color: rgb(187, 72, 124);
+        }
+
+        .ityped-cursor {
+          animation: blink .8s infinite;
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          to {
+            opacity: 0;
+          }
         }
       }
     }
     a {
       position: absolute;
       bottom: 10px;
-      left: 40%;
-      
+      left: 35%;
+
       img {
         width: 25px;
         animation: arrowBlink 2.2s infinite;
