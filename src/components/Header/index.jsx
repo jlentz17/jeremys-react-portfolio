@@ -5,7 +5,7 @@ import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 
 function Header({ hamburgerOpen, setHamburgerOpen }) {
   return (
-    <div className={"header " + (hamburgerOpen && "active")}>
+    <div className={"header " +(hamburgerOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#about" className="logo">
@@ -13,13 +13,14 @@ function Header({ hamburgerOpen, setHamburgerOpen }) {
           </a>
           <div className="infoContainer">
             <PhoneIphoneIcon />
-            <span>(480) 955-6012</span>
+            <span>
+              <a href="tel:4809556012">Call Me: (480) 955-6012</a>
+            </span>
           </div>
           <div className="infoContainer">
             <a href="http://github.com/jlentz17" target="_blank" rel="noreferrer">
-              <GitHubIcon />
+              <GitHubIcon /> &nbsp;Check out my Commits!
             </a>
-            <span>jlentz17@gmail.com</span>
           </div>
         </div>
 
