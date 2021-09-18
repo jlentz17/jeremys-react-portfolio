@@ -10,7 +10,7 @@ function About() {
       showCursor: true,
       backDelay: 1800,
       backSpeed: 65,
-      strings: ["Web Developer", "Programmer", "Coder"],
+      strings: ["Developer", "Engineer"],
     });
   }, []);
   return (
@@ -25,7 +25,7 @@ function About() {
           <h2>Hey! My name is</h2>
           <h1>Jeremy Lentz</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            Software <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#projects">
