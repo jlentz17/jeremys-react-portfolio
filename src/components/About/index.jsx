@@ -11,6 +11,11 @@ function About() {
         </div>
       </div>
       <div className="right"></div>
+      <div className="wrapper">
+        <h2>Hey! My name is</h2>
+        <h1>Jeremy.</h1>
+        <h3></h3>
+      </div>
     </div>
   );
 }

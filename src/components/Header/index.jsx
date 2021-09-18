@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.scss";
-// import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
-// import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@material-ui/icons/GitHub";
+import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 
 function Header({ hamburgerOpen, setHamburgerOpen }) {
   return (
@@ -12,11 +12,13 @@ function Header({ hamburgerOpen, setHamburgerOpen }) {
             jeremy..
           </a>
           <div className="infoContainer">
-            {/* <PhoneAndroidIcon className="icon"/> */}
+            <PhoneIphoneIcon />
             <span>(480) 955-6012</span>
           </div>
           <div className="infoContainer">
-            {/* <GitHubIcon className="icon"/> */}
+            <a href="http://github.com/jlentz17" target="_blank" rel="noreferrer">
+              <GitHubIcon />
+            </a>
             <span>jlentz17@gmail.com</span>
           </div>
         </div>
