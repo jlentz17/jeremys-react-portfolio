@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.scss"
+import "./projects.scss";
 
 export default function Projects() {
   return (
@@ -13,9 +13,41 @@ export default function Projects() {
 
       <div className="container">
         <div className="item">
-          <img src="./assets/passwordGenerator.png"
-          width="400" height="390" alt=""/>
+          <img src="./assets/passwordGenerator.png" 
+        //   width="250"
+        //   height="230"
+          alt="" />
           <h3>Password Generator</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/codingQuizScreenshot.png" 
+        //   width="250"
+        //   height="230"
+          alt="" />
+          <h3>Code Quiz</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/workdayScheduler.png" 
+        //   width="250"
+        //   height="230"
+          alt="" />
+          <h3>Workday Scheduler</h3>
+        </div>
+        <div className="item">
+          <img
+            src="./assets/rickAndMortyProjectScreenshot.png"
+            // width="250"
+            // height="230"
+            alt=""
+          />
+          <h3>Rick and Morty App</h3>
+        </div>
+        <div className="item">
+          <img src="./assets/food-guru-homepage.png" 
+        //   width="250"
+        //   height="230"
+          alt="" />
+          <h3>Food Guru Full-Stack</h3>
         </div>
         {/* <a href="https://jlentz17.github.io/passwordGenerator/" target="none">
           <img src="./assets/passwordGenerator.png" alt="first work" />
