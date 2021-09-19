@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import ProjectsList from "../ProjectsList";
+import React from "react";
+// import ProjectsList from "../ProjectsList";
 import "./projects.scss";
 import { Card } from "@material-ui/core";
-import { ExternalLink } from "react-external-link";
+// import { ExternalLink } from "react-external-link";
 
 export default function Projects() {
   // const [selected, setSelected] = useState("fullStack");
