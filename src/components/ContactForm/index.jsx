@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contactForm.scss";
 
 export default function ContactForm() {
+  const [message, setMessage] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setMessage(true)
   };
   return (
     <div className="contactForm" id="contactForm">
@@ -16,6 +19,7 @@ export default function ContactForm() {
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
+          {message && <span>Thanks for your message!!</span>}
         </form>
       </div>
     </div>
