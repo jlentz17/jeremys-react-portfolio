@@ -17,7 +17,7 @@ function About() {
     <div className="about" id="about">
       <div className="left">
         <div className="imgContainer">
-          <img src="./assets/profilePic/headshot-maybe.png" alt="headshot" />
+          <img src="./assets/profilePic/Profile.jpg" alt="headshot" />
         </div>
       </div>
       <div className="right">
