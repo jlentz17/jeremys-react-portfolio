@@ -58,7 +58,7 @@ export default function Projects() {
             rel="noreferrer"
           >
             <img
-              src="./assets/codingQuizScreenshot.png"
+              src="./assets/codingQuizScreenShot.png"
               //   width="250"
               //   height="230"
               alt=""
