@@ -80,7 +80,6 @@ export default function Projects() {
             />
           </a>
           <h3>Workday Scheduler</h3>
-          <div></div>
         </Card>
         <Card className="item card">
           <a
@@ -96,7 +95,6 @@ export default function Projects() {
             />
           </a>
           <h3>Rick and Morty App</h3>
-          <div></div>
         </Card>
         <Card className="item card">
           <a
@@ -108,18 +106,17 @@ export default function Projects() {
               src="./assets/food-guru-homepage.png"
               //   width="250"
               //   height="230"
-              alt=""
+              alt="food app"
             />
           </a>
-          <h3>Food Guru Full Stack</h3>
-          <div></div>
+          <h3 className="foodGuru">Food Guru Full Stack</h3>
         </Card>
         {/* <div className="item">
           <img
-            src="./assets/food-guru-homepage.png"
-            //   width="250"
-            //   height="230"
-            alt=""
+          src="./assets/food-guru-homepage.png"
+          //   width="250"
+          //   height="230"
+          alt=""
           />
           <h3>Food Guru Full-Stack</h3>
         </div> */}

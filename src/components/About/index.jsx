@@ -28,7 +28,7 @@ function About() {
             Software <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#projects">
+        <a href="#projectsList">
           <img src="assets/down.png" alt="down arrow" />
         </a>
       </div>

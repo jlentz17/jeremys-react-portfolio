@@ -9,6 +9,9 @@ export default function Dropdown({hamburgerOpen, setHamburgerOpen}) {
           <a href="#about">Home</a>
         </li>
         <li onClick={()=>setHamburgerOpen(false)}>
+          <a href="#projectsList">About</a>
+        </li>
+        <li onClick={()=>setHamburgerOpen(false)}>
           <a href="#projects">Projects</a>
         </li>
         <li onClick={()=>setHamburgerOpen(false)}>
