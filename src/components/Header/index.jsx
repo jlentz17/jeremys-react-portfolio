@@ -9,7 +9,7 @@ function Header({ hamburgerOpen, setHamburgerOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#about" className="logo">
-            jeremy..
+            jeremy.
           </a>
           <div className="infoContainer">
             <PhoneIphoneIcon />
