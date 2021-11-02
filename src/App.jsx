@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import About from "./components/About";
 import Header from "./components/Header";
-import ContactForm from "./components/ContactForm";
+// import ContactForm from "./components/ContactForm";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import "./app.scss";
@@ -24,7 +24,7 @@ function App() {
         <About />
         <ProjectsList/>
         <Projects />
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
       <Footer />
     </div>
