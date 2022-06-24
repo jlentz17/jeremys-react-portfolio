@@ -25,6 +25,7 @@ function ProjectsList() {
             <br />
             <li>
               Developed screen views, navigation, and flow of web application using React, based on Adobe XD designs, to implement and deploy to production, while maintaining and updating our legacy applications running on Ruby on Rails and NextJS.
+              
             </li>
             <br />
             <li>
