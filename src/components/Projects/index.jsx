@@ -23,7 +23,7 @@ export default function Projects() {
   // ];
   return (
     <div className="projects" id="projects">
-      <h1>Projects</h1>
+      <div style={{overflow: 'hidden'}}><h1 style={{ marginBottom: 19}}>Projects</h1></div>
       {/* <ul>
         {list.map((item) => (
           <ProjectsList
@@ -35,7 +35,7 @@ export default function Projects() {
         ))}
       </ul> */}
 
-      <div className="container">
+      <div className="container" style={{}}>
         <Card className="item card">
           <a
             href="https://jlentz17.github.io/passwordGenerator/"
