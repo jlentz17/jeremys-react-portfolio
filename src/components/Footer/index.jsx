@@ -11,11 +11,11 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <a href='https://www.facebook.com' target='_blank' rel='noreferrer'>
+      <a href='https://www.facebook.com/jazzdrums7' target='_blank' rel='noreferrer'>
         <BottomNavigationAction icon={<Facebook />} className={classes.root} />
       </a>
 
-      <a href='https://www.linkedin.com' target='_blank' rel='noreferrer'>
+      <a href='https://www.linkedin.com/in/jeremy-lentz-007' target='_blank' rel='noreferrer'>
         <BottomNavigationAction icon={<LinkedIn />} className={classes.root} />
       </a>
     </BottomNavigation>
