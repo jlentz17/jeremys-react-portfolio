@@ -14,7 +14,7 @@ function Header({ hamburgerOpen, setHamburgerOpen }) {
           <div className="infoContainer">
             <PhoneIphoneIcon />
             <span>
-              <a href="tel:4809556012">Call Me: (480) 955-6012</a>
+              <a href="tel:4809556012">Call Me: (623) 693-4236</a>
             </span>
           </div>
           <div className="infoContainer">
