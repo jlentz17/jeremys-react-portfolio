@@ -38,14 +38,13 @@ export default function Projects() {
       <div className="container" style={{}}>
         <Card className="item card">
           <a
+            style={{height: '100%', overflow: 'hidden'}}
             href="https://jlentz17.github.io/passwordGenerator/"
             target="_blank"
             rel="noreferrer"
           >
             <img
               src="./assets/passwordGenerator.png"
-              //   width="250"
-              //   height="230"
               alt=""
             />
           </a>
@@ -53,14 +52,13 @@ export default function Projects() {
         </Card>
         <Card className="item card">
           <a
+            style={{height: '100%', overflow: 'hidden'}}
             href="https://jlentz17.github.io/code-quiz/"
             target="_blank"
             rel="noreferrer"
           >
             <img
               src="./assets/codingQuizScreenShot.png"
-              //   width="250"
-              //   height="230"
               alt=""
             />
           </a>
@@ -68,6 +66,7 @@ export default function Projects() {
         </Card>
         <Card className="item card">
           <a
+            style={{height: '100%', overflow: 'hidden'}}
             href="https://jlentz17.github.io/work-day-scheduler"
             target="_blank"
             rel="noreferrer"
@@ -83,6 +82,7 @@ export default function Projects() {
         </Card>
         <Card className="item card">
           <a
+            style={{height: '100%', overflow: 'hidden'}}
             href="https://jlentz17.github.io/rick-and-morty-app/"
             target="_blank"
             rel="noreferrer"
@@ -98,6 +98,7 @@ export default function Projects() {
         </Card>
         <Card className="item card">
           <a
+            style={{height: '100%', overflow: 'hidden'}}
             href="https://secure-forest-24217.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
@@ -109,17 +110,22 @@ export default function Projects() {
               alt="food app"
             />
           </a>
-          <h3 className="foodGuru">Food Guru Full Stack</h3>
+          <h3 className="card-overlay-text">Food Guru Full Stack</h3>
         </Card>
-        {/* <div className="item">
-          <img
-          src="./assets/food-guru-homepage.png"
-          //   width="250"
-          //   height="230"
-          alt=""
-          />
-          <h3>Food Guru Full-Stack</h3>
-        </div> */}
+        <Card className="item card">
+          <a
+            style={{height: '100%', overflow: 'hidden'}}
+            href="https://dev.goyellowbird.com/dashboard"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="./assets/yellowbird-app.png"
+              alt="yellowbird applictaion"
+            />
+          </a>
+          <h3>Two-Sided Marketplace App</h3>
+        </Card>
       </div>
     </div>
   );
