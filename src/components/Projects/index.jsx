@@ -5,22 +5,24 @@ import { Card } from "@material-ui/core";
 // import { ExternalLink } from "react-external-link";
 
 export default function Projects() {
-  // const [selected, setSelected] = useState("fullStack");
+  // stack
+  // let letters = []
+  // let word = 'deified'
+  // let reverseWord = ''
 
-  // const list = [
-  //   {
-  //     id: "fullStack",
-  //     title: "Full-Stack",
-  //   },
-  //   {
-  //     id: "frontEnd",
-  //     title: "Front-End",
-  //   },
-  //   {
-  //     id: "backEnd",
-  //     title: "Back-End",
-  //   },
-  // ];
+  // for (let i = 0; i < word.length; i++) {
+  //   letters.push(word[i])
+  // }
+  // for (let i = 0; i < word.length; i++) {
+  //   reverseWord+= letters.pop()
+  // }
+
+  // if(reverseWord === word) {
+  //   console.log(word + ' is a palindrome, bro');
+  // } else {
+  //   console.log(word + ' is not a palindrome');
+  // }
+
   return (
     <div className="projects" id="projects">
       <div style={{overflow: 'hidden'}}><h1 style={{ marginBottom: 19}}>Projects</h1></div>
